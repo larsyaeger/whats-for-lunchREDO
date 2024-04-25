@@ -14,8 +14,14 @@
  */
 
 const whatToDoForLunch = function(hungry, availableTime) {
-  console.log("I don't know what to do!");
-}
+  if (availableTime <= 20) {
+    console.log('just a quick snack my little pookie bear');
+  } else if ((availableTime > 20) && (availableTime <= 30)) {
+    console.log("meeyoowww you've been working quick, you deserve to take a bit of time and cook a yummmmy meal");
+  } else if (availableTime > 30) {
+    console.log('kill yourself');
+  }
+};
 
 
 /*
